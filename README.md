@@ -1,9 +1,6 @@
-### Use Azure OpenAI and LangChain to Chat with SQL Data
+## Use Azure OpenAI and LangChain to execute SQL commands and queries on SQL Database
 
-
-- config.json schema :
-{ 
-    "OPENAI_API_BASE":"https://yours.openai.azure.com/",
-    "OPENAI_API_KEY":"your key"
-}
-
+- Notebook.ipynb : generate SQL queries or commands that can be chained with other agents or prompts, and then executed on sql database
+- ui.py : an application user exeperience
+- Chinook.* : database to be loaded using UI or NOTEBOOK
+- config.json : store your secrets
